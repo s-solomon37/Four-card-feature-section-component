@@ -8,19 +8,48 @@ video {
   /* justify-content: flex-end; */
 }
 
+header {
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.Supervisor::before {
+  display: block;
+  content: "";
+  background: hsl(180, 62%, 55%);
+  height: 0.5rem;
+}
+
+.Team-Builder::before {
+  display: block;
+  content: "";
+  background: hsl(0, 78%, 62%);
+  height: 0.5rem;
+}
+
+.Karma::before {
+  display: block;
+  content: "";
+  background: hsl(34, 97%, 64%);
+  height: 0.5rem;
+}
+
+.Calculator::before {
+  display: block;
+  content: "";
+  background: hsl(212, 86%, 64%);
+  height: 0.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-.card {
-  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
-  padding: 1rem;
-}
-
-.Karma {
-  border-top: 5px solid hsl(34, 97%, 64%);
 }
