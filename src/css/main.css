@@ -50,6 +50,7 @@ p {
   border-radius: 0.25rem;
   overflow: hidden;
   background-color: white;
+  display: flex;
   flex-direction: row;
   row-gap: 2rem;
 }
