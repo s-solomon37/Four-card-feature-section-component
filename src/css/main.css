@@ -1,51 +1,86 @@
 /* Decent Defaults */
 
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+}
+
 img,
 video {
   width: 50px;
   height: auto;
   margin-left: auto;
+  margin-bottom: auto;
   /* justify-content: flex-end; */
 }
 
 header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-weight: 200;
+  font-size: 9pt;
+  color: hsl(229, 6%, 66%);
 }
 
 .card {
-  box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
-  border-radius: 1rem;
-  margin: 1rem 0.5rem;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.16);
+  border-radius: 0.25rem;
+  margin: 1rem 2.5rem;
   overflow: hidden;
+  background-color: white;
+}
+
+h3 {
+  font-weight: 600;
 }
 
 .Supervisor::before {
   display: block;
   content: "";
   background: hsl(180, 62%, 55%);
-  height: 0.5rem;
+  height: 0.25rem;
 }
 
 .Team-Builder::before {
   display: block;
   content: "";
   background: hsl(0, 78%, 62%);
-  height: 0.5rem;
+  height: 0.25rem;
 }
 
 .Karma::before {
   display: block;
   content: "";
   background: hsl(34, 97%, 64%);
-  height: 0.5rem;
+  height: 0.25rem;
 }
 
 .Calculator::before {
   display: block;
   content: "";
   background: hsl(212, 86%, 64%);
-  height: 0.5rem;
+  height: 0.25rem;
+}
+
+.content {
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+section > p {
+  padding-bottom: 2.5rem;
 }
 
 .attribution {
